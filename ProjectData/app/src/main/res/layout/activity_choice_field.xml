@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#778899"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.ChoiceField">
+
+    <Button
+        android:id="@+id/btn5x5"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#808080"
+        android:text="5x5"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="FromChoiceFieldToGameScreen_5x5"/>
+
+    <Button
+        android:id="@+id/btn8x8"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#808080"
+        android:text="8x8"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5x5"
+        android:onClick="FromChoiceFieldToGameScreen_8x8"/>
+
+    <Button
+        android:id="@+id/btn10x10"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#808080"
+        android:text="10x10"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8x8"
+        android:onClick="FromChoiceFieldToGameScreen_10x10"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Выберите размер поля"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

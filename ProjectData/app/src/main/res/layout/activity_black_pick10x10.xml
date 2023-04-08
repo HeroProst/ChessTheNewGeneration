@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#778899"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.BlackPick_10x10">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#778899"
+        tools:context=".Screens.BlackPick_10x10"
+        android:layout_marginTop="15dp">
+
+        <TableRow android:gravity="center">
+            <FrameLayout android:id="@+id/A1">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/A1_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A2">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/A2_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A3">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/A3_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A4">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/A4_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/king_black"
+                    android:tag="King"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A5">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/A5_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A6">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/A6_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A7">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/A7_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A8">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/A8_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A9">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/A9_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/A10">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/A10_figure"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <FrameLayout android:id="@+id/B1">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/B1_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B2">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/B2_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B3">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/B3_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B4">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/B4_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B5">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/B5_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B6">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/B6_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B7">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/B7_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B8">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/B8_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B9">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_black"
+                    />
+                <ImageButton android:id="@+id/B9_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/B10">
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/square_white"
+                    />
+                <ImageButton android:id="@+id/B10_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"
+                    />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <FrameLayout android:id="@+id/C1">
+
+                <ImageButton android:id="@+id/C1_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C2">
+
+                <ImageButton android:id="@+id/C2_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C3">
+                <ImageButton android:id="@+id/C3_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C4">
+                <ImageButton android:id="@+id/C4_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C5">
+                <ImageButton android:id="@+id/C5_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C6">
+                <ImageButton android:id="@+id/C6_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C7">
+                <ImageButton android:id="@+id/C7_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C8">
+                <ImageButton android:id="@+id/C8_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C9">
+                <ImageButton android:id="@+id/C9_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/C10">
+                <ImageButton android:id="@+id/C10_figure"
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    />
+                <ImageView
+                    android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                    android:src="@drawable/cross_red"
+                    />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#6a7b8d">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выберете фигуры"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#808080"
+                android:text="Текущая стоимость: "
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/priceView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/priceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/separator"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" / "
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/maxPrice"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/maxPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button2"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                android:text="Готово"
+                android:textSize="12dp"
+                android:onClick="inToTheGame"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#6a7b8d">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listFigureRecycler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

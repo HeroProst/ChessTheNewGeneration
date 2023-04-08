@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778899"
+    tools:context=".Screens.GameScreen_5x5"
+    android:gravity="center">
+
+    <TableRow android:gravity="center">
+        <FrameLayout android:id="@+id/A1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/A1_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/A2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/A2_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/A3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/A3_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/A4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/A4_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/A5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/A5_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <FrameLayout android:id="@+id/B1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+
+            <ImageButton
+                android:id="@+id/B1_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None" />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/B2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/B2_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/B3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/B3_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/B4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/B4_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/B5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/B5_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <FrameLayout android:id="@+id/C1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/C1_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/C2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/C2_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/C3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/C3_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/C4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/C4_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/C5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/C5_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/square_empty"
+                android:tag="None"
+                />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <FrameLayout android:id="@+id/D1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/D1_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/D2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/D2_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/D3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/D3_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/D4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/D4_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/D5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/D5_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:gravity="center">
+        <FrameLayout android:id="@+id/E1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/E1_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/E2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/E2_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/E3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/E3_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/E4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_black"
+                />
+            <ImageButton android:id="@+id/E4_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/E5">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/square_white"
+                />
+            <ImageButton android:id="@+id/E5_figure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+        </FrameLayout>
+    </TableRow>
+
+</TableLayout>

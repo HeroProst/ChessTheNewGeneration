@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#778899"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.WhitePick_5x5">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#778899"
+        tools:context=".Screens.WhitePick_5x5"
+        android:layout_marginTop="15dp">
+
+        <TableRow android:gravity="center">
+
+            <FrameLayout android:id="@+id/C1">
+
+                <ImageButton
+                    android:id="@+id/C1_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cross_red"
+                    android:background="@color/black"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/C2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cross_red"
+                    android:background="@color/white" />
+
+                <ImageButton
+                    android:id="@+id/C2_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/C3">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/C3_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cross_red"
+                    android:background="@color/black" />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/C4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cross_red"
+                    android:background="@color/white" />
+
+                <ImageButton
+                    android:id="@+id/C4_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/C5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/C5_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cross_red"
+                    android:background="@color/black" />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/C6">
+
+                <ImageButton
+                    android:id="@+id/C6_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white" />
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <FrameLayout android:id="@+id/D1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_white" />
+
+                <ImageButton
+                    android:id="@+id/D1_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/D2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/D2_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/D3">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_white" />
+
+                <ImageButton
+                    android:id="@+id/D3_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/D4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/D4_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/D5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_white" />
+
+                <ImageButton
+                    android:id="@+id/D5_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <FrameLayout android:id="@+id/E1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/E1_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/E2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_white" />
+
+                <ImageButton
+                    android:id="@+id/E2_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/E3">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/E3_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/king_white"
+                    android:tag="King"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/E4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_white" />
+
+                <ImageButton
+                    android:id="@+id/E4_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/E5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/square_black" />
+
+                <ImageButton
+                    android:id="@+id/E5_figure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:src="@drawable/square_empty"
+                    android:tag="None"/>
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#6a7b8d">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выберете фигуры"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#808080"
+                android:text="Текущая стоимость: "
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/priceView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/priceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/separator"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" / "
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/maxPrice"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/maxPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button2"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                android:text="Готово"
+                android:textSize="12dp"
+                android:onClick="done"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#6a7b8d">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listFigureRecycler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
